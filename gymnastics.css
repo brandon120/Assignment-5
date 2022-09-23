@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(220, 246, 248);
+}
+header {
+    text-align: center; 
+    color: gold;
+    background-color: darkblue;
+    margin-top: 0%;
+}
+section {
+    display: table;
+    padding: 1px 50px 10px;
+}
+
+.female {
+    display: table-cell;
+
+}
+.male {
+    display: table-cell;
+}
+
+#bullet {
+    list-style-type:circle;
+}
+#picture {
+    width: 70%;
+    height:500px;
+}
+body > *{
+    margin-right: 20%;
+}
